@@ -12,7 +12,7 @@ namespace joga.dk.services
         public MedlemRepository()
         {
             MedlemList = new List<Medlem>();
-        }
+    }
 
     }
 
