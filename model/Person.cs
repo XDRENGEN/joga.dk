@@ -1,6 +1,6 @@
 ﻿namespace joga.dk.model
 {
-    public class Kunde
+    public class Person
     {
         // Instans felter
 
@@ -8,7 +8,7 @@
         private string _email;
         private string _tlf;
         private string _adresse;
-        private int _id;
+        
 
 
 
@@ -42,28 +42,20 @@
         }
 
 
-        public int Id
-        {
-            get { return _id; }
-            set { _id = value; }
-        }
-
-
-
-
+       
         // Constructor
 
-        public Kunde()
+        public Person()
         {
             _navn = Navn;
             _tlf = Tlf;
             _email = Email;
             _adresse = Adresse;
-            _id = Id;
+            
         }
 
 
-        public Kunde(string navn, string email, string tlf, string adresse)
+        public Person(string navn, string email, string tlf, string adresse)
         {
             Navn = navn;
             Email = email;
